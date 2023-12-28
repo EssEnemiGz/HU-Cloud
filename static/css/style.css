@@ -402,6 +402,13 @@ span.add-icon{
   .dropdown-menu::before{
     display: none;
   }
+  
+  .inline-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
 }
 
 @media(min-width: 950px){
