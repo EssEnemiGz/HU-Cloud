@@ -354,9 +354,9 @@ span.add-icon{
   background-color: var(--imperial-red_12);
 }
 
-@media(min-width: 250px){
+@media(min-width: 350px){
   .container{
-    width: 250px;
+    width: 350px;
   }
 
   .main{
