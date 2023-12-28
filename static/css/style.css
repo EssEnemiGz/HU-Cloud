@@ -398,6 +398,10 @@ span.add-icon{
   .file-list{
     grid-template-columns: 1fr 1fr;
   }
+
+  .dropdown-menu::before{
+    display: none;
+  }
 }
 
 @media(min-width: 950px){
