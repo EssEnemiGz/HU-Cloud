@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HU Cloud</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;900&amp;display=swap" rel="stylesheet">
+    <!-- GOOGLE ICONS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <span class="material-symbols-outlined icon-box dropdown-icon">
+                menu
+            </span>
+            <div class="profile-card">
+                <figure class="picture-info">
+                    <img class="profile-picture" src="./static/img/HU-icon.webp" alt="Profile picture" width="32" height="32">                                
+                </figure>
+                <label class="text-info">
+                    <p class="text-info_title">EssEnemiGz</p>
+                    <p class="text-info_role">Web and Graphic Designer</p>
+                </label>   
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="dropdown-menu">
+            <label for="up-file" class="dropdown-menu_add">
+                <span class="material-symbols-outlined icon-box add-icon dropdown-menu_icons">
+                    add
+                </span>
+                <p class="dropdown-menu_subtitle">Subir</p>
+            </label>
+            <input type="file" name="up-file" id="up-file">
+            <ul class="dropdown-menu_list">
+                <li>
+                    <span class="material-symbols-outlined icon-box dropdown-menu_icons">
+                        home
+                    </span>
+                    <a href="#" class="link">Inicio</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined icon-box dropdown-menu_icons">
+                        cloud
+                    </span>
+                    <a href="#" class="link">Archivos</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined icon-box dropdown-menu_icons">
+                        link
+                    </span>
+                    <a href="#" class="link">Discord</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined icon-box dropdown-menu_icons">
+                        settings
+                    </span>
+                    <a href="#" class="link">Ajustes</a>
+                </li>
+            </ul>
+        </div>
+        <article class="content container">
+            <section class="home">
+                <div class="file-list">
+                    <div class="card">
+                        <label class="header-file">
+                            <time class="file-date" datetime="Mon, 18 Dec 2023">Mon, 18 Dec 2023</time>
+                            <span class="material-symbols-outlined icon-box more-icon">
+                                more_horiz
+                            </span>
+                        </label>
+                        <h3 class="file-name">filename.txt</h3>
+                        <p class="file-size">100KB</p>
+                    </div>
+                    <div class="card">
+                        <label class="header-file">
+                            <time class="file-date" datetime="Mon, 18 Dec 2023">Mon, 18 Dec 2023</time>
+                            <span class="material-symbols-outlined icon-box more-icon">
+                                more_horiz
+                            </span>
+                        </label>
+                        <h3 class="file-name">filename.txt</h3>
+                        <p class="file-size">100KB</p>
+                    </div>
+                    <div class="card">
+                        <label class="header-file">
+                            <time class="file-date" datetime="Mon, 18 Dec 2023">Mon, 18 Dec 2023</time>
+                            <span class="material-symbols-outlined icon-box more-icon">
+                                more_horiz
+                            </span>
+                        </label>
+                        <h3 class="file-name">filename.txt</h3>
+                        <p class="file-size">100KB</p>
+                    </div>
+                </div>
+                <h1 class="separation-title">File list</h1>
+                <section class="list">
+                    <div class="inline-card">
+                        <h3 class="inline-card_title">filename.txt</h3>
+                        <time class="inline-card_date chip cyan" datetime="Mon, 18 Dec 2023">Mon, 18 Dec 2023</time>
+                        <p class="inline-card_size chip red">100KB</p>
+                    </div>
+                    <div class="inline-card">
+                        <h3 class="inline-card_title">filename.txt</h3>
+                        <time class="inline-card_date chip cyan" datetime="Mon, 18 Dec 2023">Mon, 18 Dec 2023</time>
+                        <p class="inline-card_size chip red">100KB</p>
+                    </div>
+                    <div class="inline-card">
+                        <h3 class="inline-card_title">filename.txt</h3>
+                        <time class="inline-card_date chip cyan" datetime="Mon, 18 Dec 2023">Mon, 18 Dec 2023</time>
+                        <p class="inline-card_size chip red">100KB</p>
+                    </div>
+                    <div class="inline-card">
+                        <h3 class="inline-card_title">filename.txt</h3>
+                        <time class="inline-card_date chip cyan" datetime="Mon, 18 Dec 2023">Mon, 18 Dec 2023</time>
+                        <p class="inline-card_size chip red">100KB</p>
+                    </div>
+                    <div class="inline-card">
+                        <h3 class="inline-card_title">filename.txt</h3>
+                        <time class="inline-card_date chip cyan" datetime="Mon, 18 Dec 2023">Mon, 18 Dec 2023</time>
+                        <p class="inline-card_size chip red">100KB</p>
+                    </div>
+                    <div class="inline-card">
+                        <h3 class="inline-card_title">filename.txt</h3>
+                        <time class="inline-card_date chip cyan" datetime="Mon, 18 Dec 2023">Mon, 18 Dec 2023</time>
+                        <p class="inline-card_size chip red">100KB</p>
+                    </div>
+                </section>
+            </section>
+        </article>
+    </main>
+
+    <!-- JS -->
+    <script src="./static/js/script.js"></script>
+</body>
+</html>
