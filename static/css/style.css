@@ -413,7 +413,7 @@ span.add-icon{
 
 @media(min-width: 950px){
   .container{
-    min-width: 950px;
+    max-width: 950px;
   }
 
   .file-list{
@@ -423,6 +423,6 @@ span.add-icon{
 
 @media(min-width: 1250px){
   .container{
-    width: 1150px;
+    max-width: 1150px;
   }
 }
