@@ -354,9 +354,9 @@ span.add-icon{
   background-color: var(--imperial-red_12);
 }
 
-@media(min-width: 450px){
+@media(min-width: 350px){
   .container{
-    width: 450px;
+    max-width: 450px;
   }
 
   .main{
@@ -392,7 +392,7 @@ span.add-icon{
 
 @media(min-width: 650px){
   .container{
-    width: 650px;
+    max-width: 650px;
   }
 
   .file-list{
@@ -413,7 +413,7 @@ span.add-icon{
 
 @media(min-width: 950px){
   .container{
-    width: 950px;
+    min-width: 950px;
   }
 
   .file-list{
