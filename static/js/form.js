@@ -61,7 +61,7 @@ function picture(username){
 // Forms 
 
 async function send(data, option, username){
-	let response, url;
+	let response, url, restore;
 
 	if (option === REGISTER_OPTION){
 		url = 'https://hu-cloud-backend.vercel.app/register/verify';
@@ -72,10 +72,11 @@ async function send(data, option, username){
 	data['picture'] = picture(username);
 	data = JSON.stringify(data);
 	response = await fetch(url, { method:"POST", headers:{"Content-Type":"application/json", "Accept":"application/json", mode:"cors", credentials:"same-origin"} , body:data });
-	
-	console.log(response.url);
+	restore = await response.json()
+
+	console.log(restore['url']);
 	if (response.ok){
-		window.location.href = response.url;
+		window.location.href = restore['url'];
 		return 200;
 	} else {
 		return response.status;
