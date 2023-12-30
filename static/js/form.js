@@ -71,7 +71,7 @@ async function send(data, option, username){
 
 	data['picture'] = picture(username);
 	data = JSON.stringify(data);
-	response = await fetch(url, { method:"POST", headers:{"Content-Type":"application/json", "Accept":"application/json", mode:"cors", credentials:"same-origin"} , body:data });
+	response = await fetch(url, { method:"POST", headers:{"Content-Type":"application/json", "Accept":"application/json", mode:"cors", credentials:"include"} , body:data });
 	restore = await response.json()
 
 	console.log(restore['url']);
